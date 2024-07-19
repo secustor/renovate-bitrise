@@ -7,6 +7,6 @@ app:
 workflows:
   test:
     steps:
-    - script@1.1.5:
+    - script@1.2.1:
         inputs:
         - content: echo "Hello ${MY_NAME}!"
